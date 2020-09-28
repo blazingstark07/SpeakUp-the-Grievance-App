@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+
+}
+.navbar{
+  height: 80px;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+}
+
+
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+
+}
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px 13px;
+  font-family: sans-serif;
+  transition: .4s;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: #F3B340;
+  border-radius: 2px;
+}
+.wrapper .center{
+  position: absolute;
+  top: 50%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+}
+.team-section{
+  overflow: hidden;
+  text-align: center;
+  background: url(ourtew.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 60px;
+}
+.team-section h1{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 40px;
+
+}
+.border{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  margin-bottom: 20px;
+  background: #F3B340;
+}
+.ps{
+  margin-bottom: 40px;
+
+}
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+.ps a img{
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.4s all;
+
+}
+.ps a:hover > img{
+  filter: none;
+
+}
+.section{
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  height: 0;
+  overflow: hidden;
+
+
+}
+.section:target{
+  height: auto;
+}
+.name{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+
+}
